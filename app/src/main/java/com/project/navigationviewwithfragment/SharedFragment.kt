@@ -13,6 +13,6 @@ class SharedFragment:Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
+        return inflater.inflate(R.layout.shared_fragment,container, false)
     }
 }

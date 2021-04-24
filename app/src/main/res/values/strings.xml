@@ -8,4 +8,7 @@
     <string name="item_offline">Offline</string>
     <string name="item_uploads">Uploads</string>
     <string name="item_backup">Backup</string>
+
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
 </resources>

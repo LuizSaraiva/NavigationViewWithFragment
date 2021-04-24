@@ -13,6 +13,6 @@ class MyFileFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
+        return inflater.inflate(R.layout.my_files_fragment, container, false)
     }
 }
