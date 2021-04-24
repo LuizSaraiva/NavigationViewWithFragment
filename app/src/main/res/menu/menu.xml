@@ -3,30 +3,37 @@
 
     <group>
         <item
+            android:id="@+id/item_file"
             android:icon="@drawable/ic_folder"
             android:title="@string/item_myfiles" />
 
         <item
+            android:id="@+id/item_shared"
             android:icon="@drawable/ic_people"
             android:title="@string/item_shared" />
 
         <item
+            android:id="@+id/item_starred"
             android:icon="@drawable/ic_star"
             android:title="@string/item_starred" />
 
         <item
+            android:id="@+id/item_recent"
             android:icon="@drawable/ic_time"
             android:title="@string/item_recent" />
 
         <item
+            android:id="@+id/item_offline"
             android:icon="@drawable/ic_offline"
             android:title="@string/item_offline" />
 
         <item
+            android:id="@+id/item_upload"
             android:icon="@drawable/ic_upload"
             android:title="@string/item_uploads" />
 
         <item
+            android:id="@+id/item_backup"
             android:icon="@drawable/ic_backup"
             android:title="@string/item_backup" />
     </group>

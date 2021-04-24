@@ -12,12 +12,20 @@
         android:src="@drawable/ic_account" />
 
     <TextView
-        android:id="@+id/tx_name_email"
+        android:id="@+id/tx_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="People name | email"
+        android:text="People name"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tx_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email@email.com.br"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 </LinearLayout>
