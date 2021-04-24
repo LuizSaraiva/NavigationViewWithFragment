@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
         when(item.itemId){
-
             R.id.item_file ->{}
             R.id.item_shared ->{}
             R.id.item_starred ->{}
