@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">NavigationViewWithFragment</string>
+
+    <string name="item_myfiles">My Files</string>
+    <string name="item_shared">Shared with me</string>
+    <string name="item_starred">Starred</string>
+    <string name="item_recent">Recent</string>
+    <string name="item_offline">Offline</string>
+    <string name="item_uploads">Uploads</string>
+    <string name="item_backup">Backup</string>
 </resources>
